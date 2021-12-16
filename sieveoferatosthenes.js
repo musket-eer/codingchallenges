@@ -1,6 +1,6 @@
 function sieveOfEratosthenes(n){
     const primes = []
-    // add all the numbers in the range (2 to n) in the list
+    // add all the numbers in the range (2 to n) in the  primes array
     for (let i = 2; i <= n + 1; i++){
         primes.push(i)
     }
